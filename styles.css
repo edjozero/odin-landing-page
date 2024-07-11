@@ -1,3 +1,5 @@
+/* styling for whole page */
+
 body{
     height: 100vh;
     display: flex;
@@ -19,12 +21,14 @@ a{
     color: #e5e7eb;
 }
 
+/* wrapper background color for sections that have same color */
 .header-wrapper,
 .top-content-wrapper,
 .foot-wrapper{
     background-color: #1f2937;
 }
 
+/* header and top-content section */
 .header{
     background-color: #1f2937;
     display: flex;
@@ -44,10 +48,15 @@ a{
     flex-direction: column;
 }
 
+.top-content-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 .top-content{
     display: flex;
     width: 900px;
-    margin: auto;
+    margin: 100px;
     gap: 30px;
 }
 
@@ -66,6 +75,7 @@ h2{
     height: auto;
 }
 
+/* mid-content section */
 .mid-content{
     display: flex;
     flex-direction: column;
@@ -104,6 +114,7 @@ h3{
     color: #1f2937;
 }
 
+/* quote section */
 .quote-wrapper{
     display: flex;
     justify-content: center;
@@ -126,6 +137,7 @@ h3{
     font-weight: bold;
 }
 
+/* bottom content and footer */
 .bottom-content{
     display: flex;
     justify-content: center;
