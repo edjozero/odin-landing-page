@@ -43,6 +43,11 @@ a{
     color: #f9faf8;
 }
 
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+
 .content{
     display: flex;
     flex-direction: column;
@@ -64,14 +69,17 @@ h2{
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    margin-top: -2px;
+    margin-bottom: -15px;
 }
 
 .text p{
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .top-content img{
-    width: 350px;
+    width: 400px;
     height: auto;
 }
 
