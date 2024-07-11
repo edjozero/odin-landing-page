@@ -72,8 +72,14 @@ h2{
     justify-content: center;
 }
 
-.image{
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.image img{
+    width: 200px;
+    height: auto;
 }
 
 .quote-wrapper{
