@@ -118,4 +118,10 @@ h3{
     width: 700px;
 }
 
+.signature{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
 
