@@ -78,8 +78,29 @@ h2{
 }
 
 .image img{
-    width: 200px;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    border: solid 5px #3882f6;
+    border-radius: 25px;
+}
+
+.image{
+    gap: 20px;
+    width:200px;
+    text-align: center;
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.image p{
+    text-align: center;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .quote-wrapper{
