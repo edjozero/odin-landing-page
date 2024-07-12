@@ -78,6 +78,14 @@ h2{
     font-size: 18px;
 }
 
+.text button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
 .top-content img{
     width: 400px;
     height: auto;
@@ -157,8 +165,26 @@ h3{
     display: flex;
     width: 700px;
     justify-content: space-evenly;
+    align-items: center;
     color: white;
     border-radius: 10px;
+}
+
+.call-to-action h4{
+    margin-bottom: -10px;
+}
+
+.call-to-action p{
+    font-weight: lighter;
+    color: #e5e7eb;
+}
+
+.cta-button button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 10px 30px;
 }
 
 .footer{
